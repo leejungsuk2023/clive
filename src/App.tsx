@@ -1,4 +1,5 @@
 import { Hero } from './components/Hero';
+import { VipConcierge } from './components/VipConcierge';
 import { ProblemSolution } from './components/ProblemSolution';
 import { WhyUs } from './components/WhyUs';
 import { BeforeAfter } from './components/BeforeAfter';
@@ -11,6 +12,7 @@ export default function App() {
   return (
     <div className="min-h-screen">
       <Hero />
+      <VipConcierge />
       <ProblemSolution />
       <WhyUs />
       <BeforeAfter />
